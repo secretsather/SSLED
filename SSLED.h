@@ -20,7 +20,6 @@ class SSLED
 
   private:
     uint32_t _timingLUT[256];
-    uint8_t _latchDelay = 5;
     uint32_t* _displayBuffer;//[(numLEDs * 3) + latchDelay] = {0};
     uint32_t _numLEDs;    
 };
